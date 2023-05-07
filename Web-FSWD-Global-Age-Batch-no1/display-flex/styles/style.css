@@ -1,0 +1,71 @@
+/* Navebar Css */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    background-color: #101131;
+    height: 98vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    width: 20%;
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 80%;
+    height: 100px;
+    align-items: center;
+}
+
+ul>li>button{
+    background-color: #C2FB4d;
+    padding: 10px;
+    border-radius: 10px;
+    color: slateblue;
+    border-color:#C2FB4d;
+}
+
+ul>li>button:hover{
+background-color: black;
+color:#C2FB4d ;
+border-color:black;
+cursor: pointer;
+}
+
+.fa-house-user{
+    color: wheat;
+}
+
+ul>li{
+    color:white;
+}
+
+.hero-heading{
+    display: block !important;
+}
+
+
+.hero-button{
+    background-color: #C2FB4d;
+    padding: 10px;
+    border-radius: 10px;
+    color: slateblue;
+    border-color:#C2FB4d;
+}
+
+/* Navebar Css */

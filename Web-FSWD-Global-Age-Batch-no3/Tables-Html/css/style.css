@@ -1,0 +1,50 @@
+/* .heading-1{
+    color: green;
+}
+
+.heading-2{
+    color: red;
+}
+
+#heading-3{
+    color: brown;
+} */
+
+.my-table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+.my-table{
+    width: 800px;
+    height: 100%;
+}
+
+td,th{
+    text-align: center;
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-1{
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJg-4S3AohGb_Nnea52bExRtchH6AFN0PC4Q&usqp=CAU');
+   width: 100px;
+   height: 100px;
+   background-position: center center;
+}
+
+.img-2{
+    background-image: url('https://www.themanual.com/wp-content/uploads/sites/9/2019/11/antartica-trip-icebergs-2019-dd-tm-11.jpg?resize=2048%2C1365&p');
+    width: 100px;
+    height: 100px;
+    background-position: center center;
+ }
+
+ .img-3{
+    background-image: url();
+ }

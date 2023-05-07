@@ -1,0 +1,35 @@
+.custom-nav{
+    height: 500px !important;
+    background-image: url('../assets/hero_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.custom-nav-header{
+    background-color: orangered;
+    height: 5px;
+}
+
+.orange-button{
+    background-color: orangered;
+}
+
+.custom-body{
+    background-color: white;
+    height: 1000px !important;
+    width: 100%;
+}
+
+a:link {
+    color: white;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  a:active {
+    color: white;
+  }

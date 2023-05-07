@@ -1,0 +1,62 @@
+h1 {
+    background-color: aqua;
+    height: 500px;
+}
+
+h2 {
+    background-color: cadetblue;
+}
+
+
+img {
+    height: 400px;
+    width: 400px
+}
+
+.div1 {
+    background-image: url('../assets/1.jpg');
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    border:100px solid black;
+}
+
+.div2 {
+    background-color: crimson;
+    height: 300px;
+    width: 300px;
+}
+
+.div3 {
+    background-color: chartreuse;
+    height: 300px;
+    width: 300px;
+}
+
+div {
+    display: inline-block;
+}
+
+body{
+    background-image: url('../assets/wallpaperflare.com_wallpaper.jpg');
+    background-position: center;
+    background-attachment: fixed;
+}
+
+ul{
+    color: whitesmoke;
+}
+
+li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left:100px
+}
+
+li:hover{
+    background-color: whitesmoke;
+    color:black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding:10px
+}

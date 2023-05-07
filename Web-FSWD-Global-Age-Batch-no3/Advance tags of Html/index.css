@@ -1,0 +1,16 @@
+.myBar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.side{
+    background-color: tomato;
+    height: 500px;
+    width: 600px;
+}
+
+.right{
+    background-color: hotpink;
+    height: 500px;
+    width: 600px;
+}

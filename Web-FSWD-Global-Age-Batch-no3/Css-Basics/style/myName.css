@@ -1,0 +1,11 @@
+h1{
+    color: aquamarine;
+    background-color: brown;
+    text-align: center;
+}
+
+header{
+    background-color: tomato;
+    width: 100%;
+    height: 50px;
+}
