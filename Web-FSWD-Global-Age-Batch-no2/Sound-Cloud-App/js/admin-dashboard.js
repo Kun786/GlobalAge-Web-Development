@@ -65,11 +65,25 @@ const createMusic = () => {
                     <h1>${data.songName}</h1>
                   <p class="card-text">${data.songDescription}</p>
                 </div>
+                <button class="btn btn-outline-danger" onclick="deleteData(${data.id})">delete</button>
               </div>
             </div>
             `
         })
     } catch (error) {
         console.log(error.message);
+    }
+  }
+
+
+  const deleteData = (id) => {
+    try {
+        let getData = JSON.parse(localStorage.getItem('music-data'));
+        let newData = getData.filter(data => {
+          return (data.id !== id)
+        })
+        localStorage.setItem('music-data', JSON.stringify(newData));
+    } catch (error) {
+      console.log(error.message)
     }
   }
