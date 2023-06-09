@@ -1,0 +1,36 @@
+.paragraph-one{
+    color: red;
+    font-size: 500px;
+    opacity: 0.5;
+    display: none;
+}
+
+#paragraph{
+    color: blue;
+}
+
+.hero-image{
+    width: 100%;
+    height: 5rem;
+    background-image: url('../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hero-heading{
+    text-align: center;
+}
+
+.my-div{
+    width: 100%;
+    height: 98vh;
+    background-color: brown;
+}
+
+.circle{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+}
