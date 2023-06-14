@@ -1,0 +1,63 @@
+nav{
+    background-color: skyblue;
+    width: 100%;
+    height: 50px;
+}
+
+.parent{
+    margin-top:20px
+}
+
+.first-div{
+    background-color: coral;
+    display: inline-block;
+    width:29%;
+    margin-right:25px;
+    height: 695px;
+}
+
+.second-div{
+    background-color:cadetblue;
+    display: inline-block;
+    width: 69%;
+    height: 695px;
+}
+
+.gallery-text{
+    text-align: center;
+}
+
+.img-one{
+    width:19%;
+    height: 400px;
+    background-image: url('https://media.zigcdn.com/media/content/2018/Aug/2019_hyundai_elantra_revealed_1_720x540.jpg');
+    display: inline-block;
+}
+
+.img-two{
+    width:19%;
+    height: 400px;
+    background-image: url('https://media.zigcdn.com/media/content/2018/Aug/2019_hyundai_elantra_revealed_1_720x540.jpg');
+    display: inline-block;
+}
+
+.img-three{
+    width:19%;
+    height: 400px;
+    background-image: url('https://media.zigcdn.com/media/content/2018/Aug/2019_hyundai_elantra_revealed_1_720x540.jpg');
+    display: inline-block;
+}
+
+.img-four{
+    width:19%;
+    height: 400px;
+    background-image: url('https://media.zigcdn.com/media/content/2018/Aug/2019_hyundai_elantra_revealed_1_720x540.jpg');
+    display: inline-block;  
+}
+
+.img-five{
+    width:19%;
+    height: 400px;
+    background-image: url('https://media.zigcdn.com/media/content/2018/Aug/2019_hyundai_elantra_revealed_1_720x540.jpg');
+    display: inline-block;
+}
