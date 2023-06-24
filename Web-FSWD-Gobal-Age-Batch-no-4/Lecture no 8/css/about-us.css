@@ -1,0 +1,52 @@
+/* Section-1 Css */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+li{
+    display: inline;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+h3{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+li:hover{
+    border:1px solid white;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+p:hover{
+    border:1px solid white;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.hero-image{
+    background-color: black;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    border:1px solid white;
+    border-radius: 5%;
+    color: white;
+    padding: 100px;
+}
+/* Section-1 Css */
