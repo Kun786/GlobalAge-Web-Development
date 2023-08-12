@@ -28,20 +28,21 @@
 // console.log(result);
 
 //Object Mapping ke sath condition ko follow karna
-const arthemeticOperators = (number1, number2, operator) => {
+const arthemeticOperators = (number1, number2, number3, operator) => {
     const operators = {
       '+': number1 + number2,
       '-': number1 - number2,
       '*': number1 * number2,
       '/': number1 / number2,
-      '%': number1 % number2,
+      '%': number1 % number2
     };
     return operators[operator] || 'Please pass an arithmetic operator';
   };
 
-  arthemeticOperators(12,3,'+')
- 
+  arthemeticOperators(14,3,'/')
 
+
+ 
 
 
 
