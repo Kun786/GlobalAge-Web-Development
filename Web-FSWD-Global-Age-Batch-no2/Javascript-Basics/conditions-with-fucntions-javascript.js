@@ -1,5 +1,5 @@
 // // Generic function for Arthemetic operators
-//if else ke sath condition ko follow karna
+// if else ke sath condition ko follow karna
 // const arthemeticOperators = (number1, number2, operator) => {
 //     try {
 //         if(operator === '+'){
@@ -20,6 +20,7 @@
 //     }
 // }
 
+
 // // fucntion arthemeticOperators(){
     
 // // }
@@ -28,7 +29,7 @@
 // console.log(result);
 
 //Object Mapping ke sath condition ko follow karna
-const arthemeticOperators = (number1, number2, number3, operator) => {
+const arthemeticOperators = (number1, number2 , operator) => {
     const operators = {
       '+': number1 + number2,
       '-': number1 - number2,
