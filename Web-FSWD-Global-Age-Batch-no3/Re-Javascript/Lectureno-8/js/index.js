@@ -84,3 +84,23 @@ const createList = () => {
         console.log(error.message)
     }
 }
+
+const createRow = () => {
+    try {
+        const getHtmlElement = document.querySelector(".dynamic-row");
+        getHtmlElement.innerHTML += `
+        <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+        `
+    } catch (error) {
+        console.log(error.message)
+    }
+}
+
+// Assignment
+// innerHTML dynamic list, divs, h1-h6, table
+// createElement dynamic list, divs, h1-h6, table
