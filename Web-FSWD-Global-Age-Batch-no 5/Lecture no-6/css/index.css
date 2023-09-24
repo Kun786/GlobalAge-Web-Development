@@ -24,3 +24,8 @@
     background-position: center center;
     background-size: cover;
 }
+
+h1:hover{
+    color:red;
+    cursor: pointer;
+}
