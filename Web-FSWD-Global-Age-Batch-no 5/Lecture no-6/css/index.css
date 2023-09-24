@@ -1,0 +1,26 @@
+.div1{
+    background-image: url('../assets/bg1.jpg');
+    height: 99vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.div2{
+    background-image: url('../assets/bg2.jpg');
+    height: 99vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.div3{
+    background-image: url('../assets/bg3.jpg');	
+    height: 99vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
