@@ -1,0 +1,33 @@
+.sect-1{
+    width: 100%;
+    height: 98vh;
+    background-color: red;
+}
+
+.sect-2{
+    width: 100%;
+    height: 98vh;
+    background-color: green;
+}
+
+.sect-3{
+    width: 100%;
+    height: 98vh;
+    background-color: blue;
+}
+
+.sect-4{
+    width: 100%;
+    height: 98vh;
+    background-color: yellow;
+}
+
+.sect-5{
+    width: 100%;
+    height: 98vh;
+    background-color: black;    
+}
+
+html{
+    scroll-behavior: smooth;
+}
