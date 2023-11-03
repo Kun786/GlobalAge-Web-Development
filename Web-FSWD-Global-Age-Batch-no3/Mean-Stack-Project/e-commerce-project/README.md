@@ -9,4 +9,5 @@
 1. One-way binding
 2. Two-way binding
 3. Lifecycle hooks
-4. Directives for DOM manipulation
+4. Directives for DOM manipulation (Component based, Attributal directive, Structural Directivew)
+5. Decorators (Component, Module, Class, Property)
