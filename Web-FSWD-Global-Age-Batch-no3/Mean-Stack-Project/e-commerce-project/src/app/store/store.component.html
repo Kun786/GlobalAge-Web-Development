@@ -1,0 +1,18 @@
+<div class="container my-5">
+    <h1 class="text-center">Welcome to My Store</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col" *ngFor = "let data of storeData">
+                <div class="card" style="width: 18rem;">
+                    <img [src]="data.image" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">{{data.title}} {{storeDataE['STORECARD']}}</h5>
+                      <p class="card-text">{{data.description | slice:0:50 }}</p><br>
+                      <p class="fw-bold">{{data.exhibition_history | slice:0:150}}</p>
+                      <a  class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
