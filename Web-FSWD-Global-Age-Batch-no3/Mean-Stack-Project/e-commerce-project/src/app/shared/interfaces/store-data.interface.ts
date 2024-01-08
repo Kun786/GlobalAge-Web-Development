@@ -6,6 +6,17 @@ interface IStoreData {
     image: string,
 }
 
+interface IOne {
+    _id: number,
+    status: boolean
+}
+
+interface ITwo {
+    _selectionId: number,
+    name: string
+} 
 export{
-    IStoreData
+    IStoreData,
+    IOne,
+    ITwo
 }
