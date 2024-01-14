@@ -9,6 +9,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { StoreComponent } from './store/store.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AddToCartComponent } from './store/add-to-cart/add-to-cart.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     AboutUsComponent,
     ContactUsComponent,
-    StoreComponent
+    StoreComponent,
+    AddToCartComponent
   ],
   imports: [
     BrowserModule,

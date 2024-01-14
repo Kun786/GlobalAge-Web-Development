@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { StoreService } from '../shared/services/store.service';
 import { IOne, IStoreData, ITwo } from '../shared/interfaces/store-data.interface';
 import { StoreDataE } from '../shared/enums/store-data.enum';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-store',
@@ -29,7 +30,8 @@ export class StoreComponent implements OnInit {
   public storeData:IStoreData[] = [];
   public storeDataE = StoreDataE;
   constructor(
-    private readonly StoreService:StoreService
+    private readonly StoreService:StoreService,
+    private readonly Router: Router
   ){
   }
 
@@ -62,6 +64,12 @@ export class StoreComponent implements OnInit {
             }
           })
       }
+      
     )
+  }
+
+  public goToCart(uniqueIdentity:number){
+    console.log(uniqueIdentity)
+    this.Router.navigate(['/add-to-cart', uniqueIdentity]);
   }
 }

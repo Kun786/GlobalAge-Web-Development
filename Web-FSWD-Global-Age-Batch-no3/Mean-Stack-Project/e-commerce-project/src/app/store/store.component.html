@@ -9,7 +9,7 @@
                       <h5 class="card-title">{{data.title}} {{storeDataE['STORECARD']}}</h5>
                       <p class="card-text">{{data.description | slice:0:50 }}</p><br>
                       <p class="fw-bold">{{data.exhibition_history | slice:0:150}}</p>
-                      <a  class="btn btn-primary">Add to Cart</a>
+                      <a  class="btn btn-primary" (click)="goToCart(data.id)">Add to Cart</a>
                     </div>
                   </div>
             </div>
