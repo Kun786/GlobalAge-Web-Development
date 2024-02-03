@@ -9,6 +9,7 @@ import { StoreService } from 'src/app/shared/services/store.service';
 })
 export class AddToCartComponent implements OnInit{
 
+  public filteredDataById: any = []; 
   constructor(
     private readonly Router: Router,
     private readonly ActivatedRoute: ActivatedRoute,
@@ -17,15 +18,13 @@ export class AddToCartComponent implements OnInit{
 
   ngOnInit(): void {
     this.StoreService.getData().subscribe((data:any) => {
-      console.log(data)
+      let { data:responseData } = data; 
       this.ActivatedRoute.params.subscribe((id)=>{
-        data = data.filter((element:any) => element.id === id['id'])	
+        this.filteredDataById = responseData.filter((element:any) => {
+         return  element.artist_id === parseInt(id['id'])
+        })	
       })
-      console.log(data)
+      console.log(this.filteredDataById)
     })
-    this.ActivatedRoute.params.subscribe((id)=>{
-      console.log(id)
-    })
-    
   }
 }

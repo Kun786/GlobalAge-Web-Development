@@ -38,7 +38,6 @@ export class StoreComponent implements OnInit {
   ngOnInit(){
     this.getDataFromStore();
     let result = this.mergingArray(this.array1, this.array2);
-    console.log(result)
   }
 
   public mergingArray (array1: IOne[], array2: ITwo[]) {
@@ -69,7 +68,6 @@ export class StoreComponent implements OnInit {
   }
 
   public goToCart(uniqueIdentity:number){
-    console.log(uniqueIdentity)
     this.Router.navigate(['/add-to-cart', uniqueIdentity]);
   }
 }
