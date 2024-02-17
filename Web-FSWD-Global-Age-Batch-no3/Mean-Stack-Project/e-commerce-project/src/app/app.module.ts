@@ -10,6 +10,10 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { StoreComponent } from './store/store.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AddToCartComponent } from './store/add-to-cart/add-to-cart.component';
+import { SenderComponent } from './sender/sender.component';
+import { GetterComponent } from './getter/getter.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { AddToCartComponent } from './store/add-to-cart/add-to-cart.component';
     AboutUsComponent,
     ContactUsComponent,
     StoreComponent,
-    AddToCartComponent
+    AddToCartComponent,
+    SenderComponent,
+    GetterComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
